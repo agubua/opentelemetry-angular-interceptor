@@ -1,0 +1,33 @@
+{
+  "name": "@jufab/opentelemetry-angular-interceptor",
+  "version": "1.9.0",
+  "repository": "jufab/opentelemetry-angular-interceptor",
+  "author": {
+    "name": "Julien Fabre"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "keywords": [
+    "opentelemetry",
+    "tracing",
+    "angular"
+  ],
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
+    "@opentelemetry/api": "1.9.0",
+    "@opentelemetry/context-zone-peer-dep": "1.26.0",
+    "@opentelemetry/exporter-trace-otlp-http": "0.53.0",
+    "@opentelemetry/exporter-zipkin": "1.26.0",
+    "@opentelemetry/instrumentation": "0.53.0",
+    "@opentelemetry/propagator-aws-xray": "1.26.0",
+    "@opentelemetry/propagator-b3": "1.26.0",
+    "@opentelemetry/propagator-jaeger": "1.26.0",
+    "@opentelemetry/sdk-trace-web": "1.26.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.0"
+  }
+}
